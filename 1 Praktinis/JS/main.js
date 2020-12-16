@@ -5,14 +5,14 @@ var text = document.querySelector(".text");
 
 
 yellow.addEventListener("click", function(){
-	text.classList.add("yellow");
+	text.classList.toggle("yellow");
 });
 
 
 red.addEventListener("click", function(){
-	text.classList.add("red");
+	text.classList.toggle("red");
 });
 
 green.addEventListener("click", function(){
-	text.classList.add("green");
+	text.classList.toggle("green");
 });
