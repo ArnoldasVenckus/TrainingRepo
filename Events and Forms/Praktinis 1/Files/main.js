@@ -20,7 +20,12 @@ function run(e){
     }
     count++;
     resultCount.innerHTML = "Bandymai: " + count;
+    let conv = String(count);
+    localStorage.setItem('bandymas' + conv, guess);
+    console.log(localStorage);
 }
 
+localStorage.clear();
 
 console.log(rand);
+
