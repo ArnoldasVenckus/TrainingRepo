@@ -6,8 +6,6 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
     let firstNumber = Number(e.target.elements.firstNumber.value);
     let secondNumber = Number(e.target.elements.secondNumber.value);
-    if(firstNumber !== null || secondNumber !== null){
-        suma = firstNumber + secondNumber;
-        sum.innerHTML = suma;
-    }
+    suma = firstNumber + secondNumber;
+    sum.innerHTML = suma;
 });
